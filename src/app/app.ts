@@ -7,6 +7,9 @@ import * as ons from 'onsenui';
   styles: [ require('./app.css') ]
 })
 export class MyApp {
+
+  private testedit = "test";
+
   constructor() {}
 
   alert() {
