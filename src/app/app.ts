@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import * as ons from 'onsenui';
 
+import {TestlistComponent} from './testlist/testlist.component';
+
 @Component({
   selector: 'app',
   template: require('./app.html'),
@@ -8,7 +10,8 @@ import * as ons from 'onsenui';
 })
 export class MyApp {
 
-  private testedit = "test";
+  private testedit = "test sss";
+  testlist = TestlistComponent;
 
   constructor() {}
 
